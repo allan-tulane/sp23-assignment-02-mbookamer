@@ -113,6 +113,9 @@ def time_multiply(x, y, f):
     # multiply two numbers x, y using function f
     return (time.time() - start)*1000
 
+#results are not printed but after running tests, the empirical results are what were expected with a running time that scales by 2 based on 
+#the number of bitshifts needed (which utilizes an exponential function with base 2) 
+
     
     
 
